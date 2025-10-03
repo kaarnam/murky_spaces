@@ -1,0 +1,16 @@
+baseURL = 'https://kaarnam.com/'
+languageCode = 'en-us'
+title = 'Karthika Namboothiri'
+theme = 'maverick'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = -110
+  [[menu.main]]
+    identifier = "posts"
+    name = "Published work"
+    url = "/posts/"
+    weight = -200
